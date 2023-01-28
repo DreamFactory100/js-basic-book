@@ -6,6 +6,7 @@
 **현재 깃허브에 올라와 있는 파일은 [Do it! 자바스크립트 기초]의 실습 파일입니다.** 
 
 -----------------------------------------------
+*****************************************
 
 
 ### 깃허브 계정이 있다면
@@ -41,4 +42,30 @@
 
 실습 과정을 설명한 PDF 파일을 참고하면서 공부했던 내용을 복습해 볼 수 있습니다.
 
+******
 
+```Python
+<script>
+# Import necessary libraries
+import numpy as np
+import pandas as pd
+
+# Define function for generating scenarios
+def generate_scenarios(mean, std_dev, num_scenarios):
+    # Generate random values for the scenario variables
+    scenario_values = np.random.normal(mean, std_dev, num_scenarios)
+    
+    # Create a DataFrame to store the scenario values
+    scenarios = pd.DataFrame({'Scenario': scenario_values})
+    
+    # Return the scenarios DataFrame
+    return scenarios
+
+# Define mean and standard deviation for the scenario variables
+mean = 0.05
+std_dev = 0.01
+
+# Generate 10 scenarios
+scenarios = generate_scenarios(mean, std_dev
+</script>
+```
